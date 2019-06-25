@@ -1,6 +1,6 @@
 /* jshint indent: 2 */
 
-module.exports = function (sequelize, DataTypes) {
+module.exports = function(sequelize, DataTypes) {
   return sequelize.define('users', {
     users_id: {
       type: DataTypes.INTEGER(5),
@@ -15,16 +15,20 @@ module.exports = function (sequelize, DataTypes) {
       type: DataTypes.STRING(45),
       allowNull: false
     },
-    last_update: {
+    username_email: {
       type: DataTypes.STRING(45),
       allowNull: false
     },
-    DOB: {
-      type: DataTypes.DATEONLY,
-      allowNull: true
+    pass_word: {
+      type: DataTypes.STRING(45),
+      allowNull: true,
+      unique: true
+    },
+    last_update: {
+      type: DataTypes.DATE,
+      allowNull: false
     }
-  },
-    {
-      tableName: 'users'
-    });
+  }, {
+    tableName: 'users'
+  });
 };
