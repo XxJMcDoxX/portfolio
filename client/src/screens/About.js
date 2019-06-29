@@ -1,11 +1,18 @@
 import React from "react";
+import Header from "../components/Header";
+import { withRouter } from 'react-router-dom';
 
-const About = () => (
-    <div>
-      <h2>About</h2>
-    </div>
-  );
+class About extends React.Component {
 
+    render() {
+        return (
+            <div>
+                <Header title='About' />
+            </div>
+        );
+    }
 
-export default About;
+}
+
+export default withRouter(About);
 
