@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import { withRouter } from 'react-router-dom';
 
 class SignUpForm extends React.Component {
     state = {
@@ -11,11 +12,11 @@ class SignUpForm extends React.Component {
 
 
 
-    render(){
-        return(
+    render() {
+        return (
             <div>
-                <Header title='Login' />
-                <input type = 'text' placeholder='First Name' name='firstName'></input>
+                <Header title='Sign Up!' />
+                <input type='text' placeholder='First Name' name='firstName'></input>
             </div>
         );
     }

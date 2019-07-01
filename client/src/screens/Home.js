@@ -1,13 +1,15 @@
 import React from 'react';
-import Login from './Login'
+// import Login from './Login'
+import SignUp from './SignUp';
 
 
 class Home extends React.Component {
     render() {
         return (
-            
-               <Login />
-            
+            <div>
+                <SignUp />
+
+            </div>
         );
     }
 }
