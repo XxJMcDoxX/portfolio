@@ -1,20 +1,15 @@
 import React from 'react';
-// import Login from './Login'
-import SignUp from './SignUp';
 import Login from './Login';
+import SignUp from './SignUp';
 
+const Home = () => (
+  <div>
+    {/* <h2>Home</h2> */}
+        <SignUp />
+    <br />
+        <Login />
+    
+  </div>
+);
 
-class Home extends React.Component {
-    render() {
-        return (
-            <div>
-                <SignUp />
-                <Login />
-            </div>
-        );
-    }
-}
-
-
-
-export default Home; 
+export default Home;

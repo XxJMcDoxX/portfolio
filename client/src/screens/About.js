@@ -1,18 +1,10 @@
-import React from "react";
-import Header from "../components/Header";
-import { withRouter } from 'react-router-dom';
+import React from 'react';
 
-class About extends React.Component {
+const About = () => (
+  <div>
+    <h2>About</h2>
+  </div>
+);
 
-    render() {
-        return (
-            <div>
-                <Header title='About' />
-            </div>
-        );
-    }
-
-}
-
-export default withRouter(About);
+export default About;
 

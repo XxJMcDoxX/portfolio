@@ -23,8 +23,8 @@ class Login extends React.Component {
         axios
             .post("http://localhost:3001/login", {
 
-                name: this.email.current.value,
-                name: this.passWord.current.value,
+                // name: this.email.current.value,
+                // name: this.passWord.current.value,
 
 
             })
