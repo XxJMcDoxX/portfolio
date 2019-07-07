@@ -1,0 +1,9 @@
+{
+    "tables": {
+        "test": {
+            "tableName": "test",
+            "indexes": []
+        }
+    },
+    "revision": 1
+}
