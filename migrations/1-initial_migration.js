@@ -5,23 +5,69 @@ var Sequelize = require('sequelize');
 /**
  * Actions summary:
  *
- * createTable "test", deps: []
+ * createTable "users", deps: []
  *
  **/
 
 var info = {
     "revision": 1,
     "name": "initial_migration",
-    "created": "2019-07-07T00:25:05.791Z",
+    "created": "2019-07-07T00:35:18.487Z",
     "comment": ""
 };
 
 var migrationCommands = [{
     fn: "createTable",
     params: [
-        "test",
+        "users",
         {
-
+            "users_id": {
+                "type": Sequelize.INTEGER(5),
+                "field": "users_id",
+                "primaryKey": true,
+                "allowNull": false
+            },
+            "first_name": {
+                "type": Sequelize.STRING(45),
+                "field": "first_name",
+                "allowNull": false
+            },
+            "last_name": {
+                "type": Sequelize.STRING(45),
+                "field": "last_name",
+                "allowNull": false
+            },
+            "username_email": {
+                "type": Sequelize.STRING(45),
+                "field": "username_email",
+                "allowNull": false
+            },
+            "pass_word": {
+                "type": Sequelize.STRING(45),
+                "field": "pass_word",
+                "unique": true,
+                "allowNull": true
+            },
+            "last_update": {
+                "type": Sequelize.DATE,
+                "field": "last_update",
+                "allowNull": false
+            },
+            "kids_Name": {
+                "type": Sequelize.STRING(15),
+                "field": "kids_Name",
+                "allowNull": false
+            },
+            "createdAt": {
+                "type": Sequelize.DATE,
+                "field": "createdAt",
+                "allowNull": false
+            },
+            "updatedAt": {
+                "type": Sequelize.DATE,
+                "field": "updatedAt",
+                "allowNull": false
+            }
         },
         {}
     ]

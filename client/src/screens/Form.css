@@ -1,8 +1,4 @@
-.Login {
+input {
     background-color: aqua;
-}
-
-.SignUp {
-    background-color: aqua;
-    
+    font-weight: bold;
 }

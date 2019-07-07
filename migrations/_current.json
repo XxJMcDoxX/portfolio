@@ -1,7 +1,56 @@
 {
     "tables": {
-        "test": {
-            "tableName": "test",
+        "users": {
+            "tableName": "users",
+            "schema": {
+                "users_id": {
+                    "allowNull": false,
+                    "primaryKey": true,
+                    "field": "users_id",
+                    "seqType": "Sequelize.INTEGER(5)"
+                },
+                "first_name": {
+                    "allowNull": false,
+                    "field": "first_name",
+                    "seqType": "Sequelize.STRING(45)"
+                },
+                "last_name": {
+                    "allowNull": false,
+                    "field": "last_name",
+                    "seqType": "Sequelize.STRING(45)"
+                },
+                "username_email": {
+                    "allowNull": false,
+                    "field": "username_email",
+                    "seqType": "Sequelize.STRING(45)"
+                },
+                "pass_word": {
+                    "allowNull": true,
+                    "unique": true,
+                    "field": "pass_word",
+                    "seqType": "Sequelize.STRING(45)"
+                },
+                "last_update": {
+                    "allowNull": false,
+                    "field": "last_update",
+                    "seqType": "Sequelize.DATE"
+                },
+                "kids_Name": {
+                    "allowNull": false,
+                    "field": "kids_Name",
+                    "seqType": "Sequelize.STRING(15)"
+                },
+                "createdAt": {
+                    "allowNull": false,
+                    "field": "createdAt",
+                    "seqType": "Sequelize.DATE"
+                },
+                "updatedAt": {
+                    "allowNull": false,
+                    "field": "updatedAt",
+                    "seqType": "Sequelize.DATE"
+                }
+            },
             "indexes": []
         }
     },
