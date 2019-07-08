@@ -19,7 +19,8 @@ class SignUpForm extends React.Component {
                 <input type='text' placeholder='Last Name' name='lastName'></input>
                 <input type='email' placeholder='Email / Username' name='email'></input>
                 <input type='password' placeholder='Password' name='passWord'></input>
-                <button className ='Submit' onClick={(event) => this.submitSignUp(event)}>Sign-Up</button>
+                <button className="signUp" onClick={(event) => this.submitSignUp(event)}>Sign-Up</button>
+
             </div>
         );
     }

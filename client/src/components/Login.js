@@ -43,7 +43,7 @@ class Login extends React.Component {
             <div className='field'>
                 <input type='email' placeholder='Email / Username' name='email'></input>
                 <input type='password' placeholder='Password' name='passWord'></input>
-                <button className='Submit' onClick={(event) => this.submitLogin(event)}>Login</button>
+                <button className='Login' onClick={(event) => this.submitLogin(event)}>Login</button>
             </div>
         );
     }
