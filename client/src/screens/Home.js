@@ -1,7 +1,8 @@
 import React from 'react';
-import Login from './Login';
-import SignUp from './SignUp';
+import Login from '../components/Login';
+import SignUp from '../components/SignUp';
 import Header from '../components/Header';
+import { withRouter } from 'react-router-dom';
 
 
 const Home = () => (
@@ -15,4 +16,4 @@ const Home = () => (
     </div>
 );
 
-export default Home;
+export default withRouter (Home);

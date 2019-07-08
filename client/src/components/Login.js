@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from "axios";
 import { withRouter } from 'react-router-dom';
+import '../components/Form.css'
 
 class Login extends React.Component {
     state = {
@@ -39,10 +40,10 @@ class Login extends React.Component {
     }
     render() {
         return (
-            <div className='Login'>
-                <input type='email' placeholder='Email/Username' name='email'></input>
-                <input type='text' placeholder='Password' name='passWord'></input>
-                <button onClick={(event) => this.submitLogin(event)}>Login</button>
+            <div className='field'>
+                <input type='email' placeholder='Email / Username' name='email'></input>
+                <input type='password' placeholder='Password' name='passWord'></input>
+                <button className='Submit' onClick={(event) => this.submitLogin(event)}>Login</button>
             </div>
         );
     }

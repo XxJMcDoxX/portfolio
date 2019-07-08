@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import './Form.css';
+import "../components/Form.css"
 
 class SignUpForm extends React.Component {
     state = {
@@ -14,12 +14,12 @@ class SignUpForm extends React.Component {
 
     render() {
         return (
-            <div className="SignUp">
+            <div className="field">
                 <input type='text' placeholder='First Name' name='firstName'></input>
                 <input type='text' placeholder='Last Name' name='lastName'></input>
-                <input type='email' placeholder='Email/Username' name='email'></input>
-                <input type='text' placeholder='Password' name='passWord'></input>
-                <button onClick={(event) => this.submitSignUp(event)}>Sign-Up</button>
+                <input type='email' placeholder='Email / Username' name='email'></input>
+                <input type='password' placeholder='Password' name='passWord'></input>
+                <button className ='Submit' onClick={(event) => this.submitSignUp(event)}>Sign-Up</button>
             </div>
         );
     }
