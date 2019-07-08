@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import { withRouter } from 'react-router-dom';
 
 
 const About = () => (
@@ -9,5 +10,5 @@ const About = () => (
   </div>
 );
 
-export default About;
+export default withRouter (About);
 

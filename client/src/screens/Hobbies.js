@@ -1,13 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
-// import J_Fishing from '../photos/J_J_Fishing.jpg'
+import J from '../J.jpg';
+import { withRouter } from 'react-router-dom';
 
 const Hobbies = () => (
   <div>
     <Header />
     <h1>Hobbies</h1>
-    {/* <img src={J_Fishing}  alt="J_Fishing"/> */}
+    <img src={J} alt="J" />
   </div>
 );
 
-export default Hobbies;
+export default withRouter (Hobbies);
