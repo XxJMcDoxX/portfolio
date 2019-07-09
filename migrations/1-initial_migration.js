@@ -12,7 +12,7 @@ var Sequelize = require('sequelize');
 var info = {
     "revision": 1,
     "name": "initial_migration",
-    "created": "2019-07-07T00:35:18.487Z",
+    "created": "2019-07-09T23:27:55.251Z",
     "comment": ""
 };
 
@@ -51,11 +51,6 @@ var migrationCommands = [{
             "last_update": {
                 "type": Sequelize.DATE,
                 "field": "last_update",
-                "allowNull": false
-            },
-            "kids_Name": {
-                "type": Sequelize.STRING(15),
-                "field": "kids_Name",
                 "allowNull": false
             },
             "createdAt": {

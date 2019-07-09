@@ -35,11 +35,6 @@
                     "field": "last_update",
                     "seqType": "Sequelize.DATE"
                 },
-                "kids_Name": {
-                    "allowNull": false,
-                    "field": "kids_Name",
-                    "seqType": "Sequelize.STRING(15)"
-                },
                 "createdAt": {
                     "allowNull": false,
                     "field": "createdAt",

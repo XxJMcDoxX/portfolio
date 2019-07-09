@@ -28,10 +28,7 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.DATE,
       allowNull: false
     },
-    kids_Name: {
-      type:DataTypes.STRING(15),
-      allowNull: false
-    }
+    
   }, {
     tableName: 'users'
   });

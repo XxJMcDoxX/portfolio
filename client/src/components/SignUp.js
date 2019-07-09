@@ -5,14 +5,14 @@ import axios from "axios";
 
 class SignUpForm extends React.Component {
     state = {
-        firstName: " ",
-        lastName: " ",
-        email: " ",
-        passWord: " ",
+        firstName: "",
+        lastName: "",
+        email: "",
+        passWord: "",
     };
 
     getUser() {
-        axios.get("http://localhost:3001/users").then(res => {
+        axios.get("/users").then(res => {
             const user = res.data;
             this.setState({ user });
         });
@@ -29,13 +29,11 @@ class SignUpForm extends React.Component {
     };
 
     submitUser() {
-        console.log(this.state);
-        axios
-            .post("http://localhost:3001/users", {
-              firstName: this.state.firstName,
-              lastName: this.state.lastName,
-              email: this.state.email,
-              passWord: this.state.passWord
+        axios.post("/users", {
+                firstName: this.state.firstName,
+                lastName: this.state.lastName,
+                email: this.state.email,
+                passWord: this.state.passWord
 
 
             })
@@ -43,7 +41,15 @@ class SignUpForm extends React.Component {
                 this.setState({ newUser: "" });
                 this.getUser();
             });
-    }
+
+        this.setState({
+            firstName: "",
+            lastName: "",
+            email: "",
+            passWord: "",
+        });
+        console.log(this.state);
+    };
 
     render() {
         return (

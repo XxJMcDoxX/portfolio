@@ -1,7 +1,7 @@
 input  {
     width: 20%;
     padding: 12px 20px;
-    margin-left: 95em;
+    margin-left: 50em;
     display: inline-block;
     border: 15px solid #333;
     box-sizing: border-box;
@@ -15,7 +15,7 @@ input  {
       width: 20%;
       color: aqua;
       padding: 14px 20px;
-      margin-left: 95em;
+      margin-left: 50em;
       border: 15px solid #333;
       cursor: pointer;
       font-weight: bold;
@@ -27,7 +27,7 @@ input  {
     width: 20%;
     color: aqua;
     padding: 14px 20px;
-    margin-left: 95em;
+    margin-left: 50em;
     border: 15px solid #333;
     cursor: pointer;
     font-weight: bold;
