@@ -8,7 +8,7 @@ class Login extends React.Component {
         email: " ",
         passWord: " ",
     };
-
+    
     validateForm() {
         return this.email > 0 && this.state.password.length > 0;
     }
