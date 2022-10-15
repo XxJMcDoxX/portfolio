@@ -1,8 +1,19 @@
 .Login {
-    background-color: aqua;
-}
+    width: 100%;
+    padding: 12px;
+    
+    resize: vertical;
+    text-align: center;
+    
+    
+}    
 
 .SignUp {
-    background-color: aqua;
+    width: 100%;
+    padding: 12px;
     
+    
+    resize: vertical;
+    text-align: center;
+   
 }
