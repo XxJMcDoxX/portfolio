@@ -10,7 +10,7 @@ const About = () => (
   <div>
     <Header />
     <h1>Jeremiah McDonald</h1>;
-    <h7>352-446-8156 / Jeremiah.mcdonalf@gmail.com</h7>;
+    <h7>352-446-8156 / Jeremiah.mcdonalf@gmail.com</h7>
     <h3>PROFILE</h3>
     <p1>A creative, engaging, full-stack developer with a passion for front-end development and UI Design. Specializes in customer satisfaction through teamwork and maintains a commitment to exceeding expectations. Actively pursuing opportunities to provide programming skills, leadership ability, and enthusiasm to a fast-paced environment as a full-stack developer.</p1>
     <h3>SKILLS</h3>
