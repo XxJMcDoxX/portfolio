@@ -1,5 +1,22 @@
 
-
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: aqua;;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }
 
 
 
@@ -30,6 +47,8 @@ h3 {
     align-items: center;
     justify-content: center;
     height: 10vh;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 h5 {

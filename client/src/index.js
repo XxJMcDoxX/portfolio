@@ -8,13 +8,15 @@ import './App.css';
 
 
 const Index = ( { pathname }) => 
+   
     <Router>
       <div>
         <Route exact path="/" component={Home} />
         <Route path="/resume" component={About} />
         <Route path="/hobbies" component={Hobbies} />
       </div>
-    </Router>
+    </Router>;
+    
 
  let pathname = window.location.pathname;
 
@@ -22,6 +24,10 @@ const Index = ( { pathname }) =>
 
  window.addEventListener('popstate', () => {
   pathname = window.location.pathname;
+
+  
+
+
 });
 
 
