@@ -7,4 +7,12 @@ body {
 
 h1 {
   color:aqua;
+  
+}
+
+.text {
+  color: antiquewhite;
+  display: flexbox;
+  width: auto;
+  font-size: xx-large;
 }

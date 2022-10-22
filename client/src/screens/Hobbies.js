@@ -7,7 +7,8 @@ import '../screens/Images.css';
 
 
 
-const Hobbies = () => (
+const Hobbies = () => {
+ return (
   <div>
     <Header />
     <Images />
@@ -16,6 +17,6 @@ const Hobbies = () => (
                
   </div>
 );
-
+ };
 
 export default withRouter(Hobbies);
