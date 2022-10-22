@@ -8,6 +8,8 @@ import LG from '../screens/Images/letsgo.jpg';
 import LH from '../screens/Images/lakeharris.jpg';
 import '../screens/Images.css';
 import { Parallax } from 'react-parallax';
+import App from './ImageSlider';
+
 
 const Images = () => (
    
@@ -22,9 +24,12 @@ const Images = () => (
             </div>
 
         </Parallax>
+
+        
         <Parallax strength={600} bgImage={WW}>
             <div className='content'>
                 <div className='Hobbies'>WOODWORKING</div>
+                <App></App>
                 
             </div>
         </Parallax>
@@ -39,9 +44,9 @@ const Images = () => (
             </div>
         </Parallax>
         <div className='conte'></div>
+        
     </div>
 
 );
-
 
 export default Images;

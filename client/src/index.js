@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import Home from './screens/Home';
 import About from './screens/About';
 import Hobbies from './screens/Hobbies';
+
+
 import { BrowserRouter as Router, Route,  } from 'react-router-dom';
 import './App.css';
 

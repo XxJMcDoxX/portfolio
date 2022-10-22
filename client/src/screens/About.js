@@ -9,6 +9,7 @@ import '../screens/About.css';
 const About = () => (
   <div>
     <Header />
+   
     <h1>Jeremiah McDonald</h1>;
     <h7>352-446-8156 / Jeremiah.mcdonalf@gmail.com</h7>
     <h3>PROFILE</h3>
