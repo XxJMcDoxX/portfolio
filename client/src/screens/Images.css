@@ -3,7 +3,8 @@
 .content{
     height: 150vh;
     padding-top: 10%;
-    
+    max-width: auto;
+    justify-content: center;
 }
 
 .Hobbies{
@@ -32,14 +33,18 @@
 }  
 
 .Bass {
-   
-    display:center;
-    width: 350px;
-    height: 500px;
-    
-    margin: 5% 1%;
+    justify-content: center;
+   display: inline-block;
+    max-width: 50%;
+    height: 50%;
+    display: flexbox;
+    margin: 5% 5%;
     -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+    
 }
 
 
 
+const FaRegHeart {
+    color:red;
+}

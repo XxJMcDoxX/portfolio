@@ -26,6 +26,7 @@ const App = () => {
             
             <div style ={containerStyles}>
             <ImageSlider slides ={slides} />
+            
             </div>
         </div>
     );

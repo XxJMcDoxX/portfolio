@@ -3,44 +3,41 @@ import FBG from '../screens/Images/FishingBground.jpg';
 import WW from '../screens/Images/woodworking.jpg';
 import W from '../screens/Images/wedling1.jpg';
 import HD from '../screens/Images/motorcycle.jpg';
-import JF from '../screens/Images/JOEFISH.jpg';
-import LG from '../screens/Images/letsgo.jpg';
-import LH from '../screens/Images/lakeharris.jpg';
 import '../screens/Images.css';
 import { Parallax } from 'react-parallax';
-import App from './ImageSlider';
+import ImageSlider from './ImageSlider';
+import ImageSliderFish from './ImageSlider2';
 
 
 const Images = () => (
    
     
     <div>
-        <Parallax strength={600} speed={-10} bgImage={FBG}>
+        <Parallax strength={200} speed={-10} bgImage={FBG}>
             <div className='content'>
-                <div className='Hobbies'>FISHING</div>
-                <img className='Bass' src={JF} alt="Joe with Fish"></img>
-                <img className='Bass' src={LG} alt='LETS GO!'></img>
-                <img className='Bass' src={LH} alt='Lake Harris'></img>
+                 <div className='Hobbies'>FISHING</div>
+                <ImageSliderFish></ImageSliderFish>
+                
             </div>
 
         </Parallax>
 
         
-        <Parallax strength={600} bgImage={WW}>
+        <Parallax strength={200} speed={-10} bgImage={WW}>
             <div className='content'>
                 <div className='Hobbies'>WOODWORKING</div>
-                <App></App>
+                <ImageSlider></ImageSlider>
                 
             </div>
         </Parallax>
-        <Parallax strength={600} bgImage={W}>
+        <Parallax strength={200} speed={-10} bgImage={W}>
             <div className='content'>
                 <div className='Hobbies'>WELDING</div>
             </div>
         </Parallax>
-        <Parallax strength={600} bgImage={HD}>
+        <Parallax strength={200} speed={-10} bgImage={HD}>
             <div className='content'>
-                <div className='Hobbies'>RIDING</div>
+                <div className='Hobbies'>Motorcycle</div>
             </div>
         </Parallax>
         <div className='conte'></div>
