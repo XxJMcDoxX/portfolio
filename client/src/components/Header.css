@@ -33,5 +33,6 @@ body {
  
 .heart {
   color:aqua;
-  margin-right:auto;
+  margin-left: 99%;
+  position: fixed;
 }

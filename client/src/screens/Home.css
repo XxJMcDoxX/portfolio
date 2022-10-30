@@ -1,0 +1,13 @@
+.ImageStyle>img{
+    border-radius: 10% 50%;
+    justify-content: center;
+    display: flexbox;
+    margin-left: 15%;
+}
+
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
