@@ -40,9 +40,9 @@ const Images = () => (
                 <div className='Hobbies'>Motorcycle</div>
             </div>
         </Parallax>
-        <div className='conte'></div>
-        
-    </div>
+       
+        </div>
+   
 
 );
 

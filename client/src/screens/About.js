@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import '../screens/About.css';
+import Footer from '../components/Footer';
 
 
 
@@ -12,8 +13,8 @@ const About = () => (
    
     <h1>Jeremiah McDonald</h1>;
     <h7>352-446-8156 / Jeremiah.mcdonalf@gmail.com</h7>
-    <h3>PROFILE</h3>
-    <p1>A creative, engaging, full-stack developer with a passion for front-end development and UI Design. Specializes in customer satisfaction through teamwork and maintains a commitment to exceeding expectations. Actively pursuing opportunities to provide programming skills, leadership ability, and enthusiasm to a fast-paced environment as a full-stack developer.</p1>
+    <h3>PROFESSIONAL SUMMARY</h3>
+    <p1>United States Army Veteran leveraging 10+ years of proven experience within the Intelligence Community. Specializes in Geographic Information Systems Analysis and securing databases in domestic and international affairs. Adept at leading teams of 15 in a dynamic, fast-paced environment. Possess a comprehensive background in diagnosing, troubleshooting, and resolving complex system application issues while identifying, analyzing, and fixing bugs that impede interface performance. Skilled at creating, managing, and troubleshooting ESRI services for maps, features class, and geoprocessing using ArcGIS server and related.</p1>
     <h3>SKILLS</h3>
     <p1>CSS, JavaScript (JS), Bootstrap, ES6, AngularJS, ReactJS, Redux, Java, MySQL2, Node, and Express</p1>
     <h3>EDUCATION & CERTIFICATIONS</h3>
@@ -23,7 +24,7 @@ const About = () => (
     <h5><a href="https://www.cfb-inc.com/mapping-gis/" target="_blank" rel="noopener noreferrer">Clymer Farner Barley ans Assoc.</a></h5>
     <h5>GIS ANALYST</h5>
     <h6>JAN2021 - AUG2022</h6>
-    <p3>	Improve productivity through automating processes and managing numerous feature Classes in Several different Databases. </p3>
+    <p3>	Improved productivity through automating processes and managing 80+ Classes in 25+ databases resulting in a seamless transition  </p3>
     <p3>	Manage and Digitize both Survey and Engineering CAD data to function in Arc GIS Portal Application. </p3>
     <p3>	Creates many time-saving models through Model Builder and Python Scripting in order to complete daily routines in a more orderly fashion. </p3>
     <h5><a href="https://www.cfb-inc.com/surveying/" target="_blank" rel="noopener noreferrer">Clymer Farner Barley ans Assoc.</a></h5>
@@ -39,7 +40,8 @@ const About = () => (
     <p3>	Lead multiple mission engagements while serving in Operation Enduring Freedom, Afghanistan in 2010</p3>
     <p3>	Solely responsible for building intelligence preparation presentations that went from the ground soldier to the highest-ranking officer.</p3>
     <p3>	Gave information guidance of the battleground to provide information and aid in order to effectively engage the enemy.</p3>
-
+   <br></br>
+    <Footer />
   </div>
 
 
