@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import '../screens/About.css';
 import Footer from '../components/Footer';
+import { withRouter } from 'react-router-dom';
 
 
 
@@ -53,4 +54,4 @@ const About = () => (
 
 
 
-export default About;
+export default withRouter(About);

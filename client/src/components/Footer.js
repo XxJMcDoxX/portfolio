@@ -13,12 +13,14 @@ const SocialStyle = {
     justifyContent: "center",
     borderBottom: "Solid",
     color: "aqua",
+    
 };
 
 const SocialNav = {
-    color:"white",
-    
+   color:"aqua",
+
 };
+
 
 
 

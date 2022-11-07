@@ -7,17 +7,14 @@ body {
 .Nav {
   
     overflow: hidden;
-    background: #2980b9; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #2980b9, #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #2980b9, #2c3e50);
-    
-
-
+    /* background: #2980b9; /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to left, #2980b9, #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to left, #2980b9, #2c3e50); */ 
 }
     
 .Nav a.active {
   
-  color: white;
+  color: aqua;
 }
 
 .Nav a {
@@ -32,7 +29,7 @@ body {
 }
 
 .Nav a:hover {
-    
+    color: white;
     
   }
 

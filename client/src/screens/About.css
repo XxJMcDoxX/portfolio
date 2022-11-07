@@ -3,21 +3,19 @@ a:link {
     color: black;
   }
   
-  visited link */
-   a:visited {
-    color: black;
-  }
-  
+
   /* mouse over link */
   a:hover {
-    color: aqua;
+    color: white;
   }
   
   /* selected link */
   a:active {
     color: black;
   }
-
+a{
+    color: aqua;
+}
 
 
 

@@ -6,7 +6,6 @@ import Hobbies from './screens/Hobbies';
 
 
 import { BrowserRouter as Router, Route,  } from 'react-router-dom';
-import './App.css';
 
 
 const Index = ( { pathname }) => 
