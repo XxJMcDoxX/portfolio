@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 
 const slideStyles = {
-    width: "100%",
+    width: "200%",
     height: "100%",
     borderRadius: "10 px",
     backgroundSize: "cover",
@@ -35,7 +35,7 @@ const slideStyles = {
   const sliderStyles = {
     position: "relative",
     height: "300%",
-    width: "300%",
+    width: "500%",
     margin:"5%",
     right:"100%",
     

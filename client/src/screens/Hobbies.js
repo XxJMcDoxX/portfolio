@@ -6,17 +6,18 @@ import { withRouter } from 'react-router-dom';
 import '../screens/Images.css';
 
 
-
 const Hobbies = () => {
  return (
   
-  <div>
+  <div className='container-Hobbies'>
     
     <Header />
-    <Images />
+    <div className='Hobbies'>FISHING</div>
+    
+    <Images></Images>  
     <Footer />
-
-               
+   
+             
   </div>
 
 

@@ -15,7 +15,7 @@ const Images = () => (
     <div>
         <Parallax strength={200} speed={-10} bgImage={FBG}>
             <div className='content'>
-                 <div className='Hobbies'>FISHING</div>
+                 {/* <div className='Hobbies'>FISHING</div> */}
                 <ImageSliderFish></ImageSliderFish>
                 
             </div>
@@ -25,7 +25,7 @@ const Images = () => (
         
         <Parallax strength={200} speed={-10} bgImage={WW}>
             <div className='content'>
-                <div className='Hobbies'>WOODWORKING</div>
+                {/* <div className='Hobbies'>WOODWORKING</div> */}
                 <ImageSlider></ImageSlider>
                 
             </div>
@@ -40,6 +40,7 @@ const Images = () => (
                 <div className='Hobbies'>Motorcycle</div>
             </div>
         </Parallax>
+        
        
         </div>
    

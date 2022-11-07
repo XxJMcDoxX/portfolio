@@ -5,9 +5,9 @@ import './Header.css'
 const Header = ({ title }) => (
     <div className='Nav'>
       
-        <a class = 'active'href="/">Home</a>
-        <a class = 'active'href="/Resume">Resume</a>
-        <a class = 'active'href="/Hobbies">Hobbies</a>
+        <a className = 'active'href="/">Home</a>
+        <a className= 'active'href="/Resume">Resume</a>
+        <a className = 'active'href="/Hobbies">Hobbies</a>
         
         
         

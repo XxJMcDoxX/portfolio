@@ -2,7 +2,7 @@
     border-radius: 10% 50%;
     justify-content: center;
     display: flexbox;
-    margin-left: 15%;
+    margin-left: 5%;
 }
 
 
@@ -13,16 +13,21 @@ h2 {
     color: white;
 }
 
-#root {
+.Container-Home {
     background-image: url("./Images/kids.jpg");
     background-repeat: none;
     background-position: center;
     background-size: cover;
     height: '100%';
     width: '100%';
+    justify-content: center;
 
 }
 
 * {
     box-sizing: border-box;
+  }
+
+  .nodisplay {
+    color:transparent;
   }

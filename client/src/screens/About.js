@@ -9,11 +9,11 @@ import { withRouter } from 'react-router-dom';
 
 
 const About = () => (
-  <div>
+  <div className='container-About'>
     <Header />
    
     <h1>Jeremiah McDonald</h1>;
-    <h7>352-446-8156 / Jeremiah.mcdonalf@gmail.com</h7>
+    <h2>352-446-8156 / Jeremiah.mcdonalf@gmail.com</h2>
     <h3>PROFESSIONAL SUMMARY</h3>
     <p1>United States Army Veteran leveraging 10+ years of proven experience within the Intelligence Community. Specializes in Geographic Information Systems Analysis and securing databases in domestic and international affairs. Adept at leading teams of 15 in a dynamic, fast-paced environment. Possess a comprehensive background in diagnosing, troubleshooting, and resolving complex system application issues while identifying, analyzing, and fixing bugs that impede interface performance. Skilled at creating, managing, and troubleshooting ESRI services for maps, features class, and geoprocessing using ArcGIS server and related.</p1>
     <h3>SKILLS</h3>
@@ -41,7 +41,9 @@ const About = () => (
     <p3>	Lead multiple mission engagements while serving in Operation Enduring Freedom, Afghanistan in 2010</p3>
     <p3>	Solely responsible for building intelligence preparation presentations that went from the ground soldier to the highest-ranking officer.</p3>
     <p3>	Gave information guidance of the battleground to provide information and aid in order to effectively engage the enemy.</p3>
-   <br></br>
+    <div className='nodisplay'>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec nam aliquam. Fermentum odio eu feugiat pretium nibh ipsum. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Congue eu consequat ac felis donec et odio pellentesque diam. Amet dictum sit amet justo donec. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Proin libero nunc consequat interdum. Sociis natoque penatibus et magnis dis parturient. Et tortor consequat id porta nibh venenatis cras. Tristique senectus et netus et malesuada fames. Eu feugiat pretium nibh ipsum consequat nisl vel. Nulla malesuada pellentesque elit eget gravida cum. Dictumst quisque sagittis purus sit. Enim sed faucibus turpis in eu mi bibendum neque egestas.
+      </div>
     <Footer />
   </div>
 
