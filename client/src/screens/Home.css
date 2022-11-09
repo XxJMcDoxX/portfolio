@@ -2,8 +2,12 @@
     border-radius: 10% 50%;
     justify-content: center;
     display: flexbox;
-    margin-left: 5%;
+    width: auto;
+    margin: 0px 0px 0px 10px;
+    border-color: aqua;
+    border-style: solid;
 }
+
 
 
 h2 {
@@ -31,3 +35,15 @@ h2 {
   .nodisplay {
     color:transparent;
   }
+
+  section {
+    
+    padding:10px;
+    margin: auto;
+    border-radius: 35%
+  }
+  section > h1 {
+    color:aquamarine;
+    font-size: 100px;
+}
+

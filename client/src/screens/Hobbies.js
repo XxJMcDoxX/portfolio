@@ -12,7 +12,7 @@ const Hobbies = () => {
   <div className='container-Hobbies'>
     
     <Header />
-    <div className='Hobbies'>FISHING</div>
+    
     
     <Images></Images>  
     <Footer />

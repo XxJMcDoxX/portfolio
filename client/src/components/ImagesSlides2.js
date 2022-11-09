@@ -4,9 +4,10 @@ import { useState } from 'react';
 const slideStyles = {
     width: "200%",
     height: "100%",
-    borderRadius: "10 px",
-    backgroundSize: "cover",
+    borderRadius: "10px",
+    backgroundSize: "contain",
     backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
     
   };
   
@@ -35,7 +36,7 @@ const slideStyles = {
   const sliderStyles = {
     position: "relative",
     height: "300%",
-    width: "500%",
+    width: "300%",
     margin:"5%",
     right:"100%",
     

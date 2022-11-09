@@ -15,6 +15,8 @@ a:link {
   }
 a{
     color: aqua;
+    font-family: 'Hanalei Fill', cursive;
+
 }
 
 .container-About {
@@ -37,7 +39,7 @@ a{
 
 h1 {
     
-    color:aqua;
+    color:red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,7 +60,7 @@ h3 {
 }
 
 h5 {
-    color:black;
+    color:whitesmoke;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -68,7 +70,7 @@ h5 {
 
 h6 {
 
-    color:black;
+    color:whitesmoke;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -105,4 +107,11 @@ p3 {
     height: 5vh;
     font-style: italic;
     margin-left: 20%;
+}
+
+.Note {
+    margin: 25%;
+    width: 50%;
+    
+    padding: 10px;
 }

@@ -5,7 +5,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { withRouter } from 'react-router-dom';
 // import PIC from './Images/profile_pic.jpg';
-import '../screens/Home.css'
+import ARMY from './Images/army.jpg';
+import '../screens/Home.css';
 
 
 
@@ -18,11 +19,17 @@ const Home = () => {
 
 
             <div className='text'>
+                <section>
                 <h1>Jeremiah McDonald</h1>
                 <h2>Data Analyst / Web Developer</h2>
-                {/* <div className='ImageStyle'>
-                    <img src={PIC} alt="profile pic"></img>
-                </div> */}
+                
+                </section>
+                <div className='ImageStyle'>
+                    {/* <img src={PIC} alt="profile pic"></img> */}
+                    <img src={ARMY} alt="ARMY PIC"></img>
+                </div>
+
+
                 <div className='nodisplay'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempus arcu mollis tincidunt iaculis. Vestibulum commodo urna purus, vitae fermentum ligula blandit sed. Nullam odio dui, semper non hendrerit quis, dictum ac justo. Praesent nec tempus mi, in maximus sapien. Cras dapibus viverra justo, sed ullamcorper quam ultricies ac. Ut aliquet risus nec lectus porttitor, ut sagittis ex feugiat. Donec tempus sem eget ligula rutrum, sit amet feugiat arcu maximus. Pellentesque tempus fermentum ipsum, non ornare eros volutpat a. Fusce placerat nisl sed bibendum sollicitudin. Vivamus at commodo lacus, in blandit sem. Integer vestibulum erat ac aliquet imperdiet. Quisque eget ex ultricies orci dictum ornare ultricies sed nunc. Donec a lacinia erat. Aliquam erat volutpat. Fusce ac purus pellentesque, lacinia augue in, facilisis augue. Donec condimentum mauris in ipsum feugiat, vitae aliquet libero lobortis.
 

@@ -7,7 +7,8 @@ body {
 .Nav {
   
     overflow: hidden;
-    
+    position: fixed;
+    margin-bottom: 10px;
 }
     
 .Nav a.active {
